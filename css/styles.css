@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 97.5%;
+	padding-bottom: 40px;
+	background-color: #fafbf5;
+}
+
+#greenline {
+	width: 100%;
+	min-height: 10px;
+	background-color: #c2e63e;
+}
+
+#topic {
+	color: #83847f;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 35px;
+	width: 40%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+#books {
+	background-color: #e3f8ef;
+	color: turquoise;
+	text-align: center;
+	max-width: 100%;
+	min-width: 100%;
+	padding-top: 15px;
+	min-height: 208px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	overflow: scroll;
+	border-top: 3px solid #def2e7;
+	border-bottom: 3px solid #def2e7;
+}
+
+.booktable {
+	
+	font-family:"Century Gothic";
+	font-size:12px;
+	color: black;
+	text-align: center;
+	padding-right: 10px;
+	border-collapse:separate;
+	border-spacing:30px 10px;
+	
+}
+
+.booktable th, td {
+
+    overflow: hidden;
+    width: 200px;
+}
+
+
+
+.uploadform {
+	background-color: #E6E6E6;
+	color: black;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin: 0 auto;
+}
+
+#upload {
+	background-color: #b2aa9c;	
+	color: #E6E6CC;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	line-height: 50%;
+    width: 40%;
+	margin: 0 auto;
+	-moz-border-radius: 15px;
+	border-radius: 15px;    
+
+}
+
+#upload input[type="text"]
+{
+    font-size:20px;
+    width: 150px;
+}
+
+#upload h3 {
+	text-align: center;
+	padding-bottom: 6px;
+	font-family: "Century Gothic";
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
