@@ -5,8 +5,8 @@ if (mysqli_connect_errno()) {
 	printf("Failed to connect to db: %s\n", mysqli_connect_error());
 	exit();
 } else {
-	$id_row = $_POST['id'];
-	$sql = ("DELETE FROM ebooks WHERE id = ($id_row)");
+	$id_rivi = $_POST['id'];
+	$sql = ("DELETE FROM ebooks WHERE id = ($id_rivi)");
 	mysqli_query($mysqli, $sql);
 }
 

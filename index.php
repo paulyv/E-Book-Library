@@ -40,9 +40,9 @@
 				echo "<td>";
 				echo "<a href=http://192.168.1.253/ebooklib/uploads/" . $info['file'] . "><img src=http://192.168.1.253/ebooklib/uploads/photos/" . $info['cover'] . " height='200' width='160'>" . "</a>";
 				//echo "<tr><td> <a href=http://192.168.1.253//ebooklib/uploads/" . $info['file'] . ">" . $info['file'] . "</a></td>";
-				echo '<form action="poista.php" method="post">
+				echo '<form action="remove.php" method="post">
 				<input type="hidden" name="id" value="' . $info['id'] . '" />
-				<input type="submit" name="poista" value="Remove">
+				<input type="submit" name="remove" value="Remove">
 				|
 				<a href=http://192.168.1.253/ebooklib/uploads/' . $info['file'] . '><input type="button" value="Download"></a>
 				</form></td>';
